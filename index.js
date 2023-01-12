@@ -11,7 +11,7 @@ function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
     if (count > 100) {
-        console.log("thats lots of doggos")
+        alert("thats lots of doggos")
     }
     countEl.textContent = 0
     count = 0
